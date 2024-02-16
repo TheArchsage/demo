@@ -1,0 +1,20 @@
+body {
+  background-color: grey;
+}
+
+input {
+  /* display: block; */
+  margin-top: 1.7%;
+}
+
+p {
+  display: inline;
+}
+
+button{
+    border-radius: 10%;
+}
+
+.hide {
+    opacity: 0%;
+}

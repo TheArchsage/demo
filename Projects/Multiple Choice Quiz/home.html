@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>This IS a test</h1>
+    </header>
+    <div class="hide" id="score-div">
+      <h3>Your score is: <span id="score"></span></h3>
+      <button type="button" onclick="reset()">Retry?</button>
+    </div>
+    <div id="questions">
+      <div id="first-question">
+        <h3>What are the languages used to create this project?</h3>
+        <input type="radio" class="correct" name="one" />
+        <p>HTML, CSS, and JavaScript</p>
+        <br />
+        <input type="radio" name="one" />
+        <p>Java, Python, and Ruby</p>
+        <br />
+        <input type="radio" name="one" />
+        <p>None of the above</p>
+        <br />
+        <input type="radio" name="one" />
+        <p>D: All of the above</p>
+      </div>
+
+      <div id="second-question">
+        <h3>How many cats do we have?</h3>
+        <input type="radio" name="two" />
+        <p>4</p>
+        <br />
+        <input type="radio" class="correct" name="two" />
+        <p>5</p>
+        <br />
+        <input type="radio" name="two" />
+        <p>2</p>
+        <br />
+        <input type="radio" name="two" />
+        <p>1</p>
+      </div>
+
+      <div id="third-question">
+        <h3>How long have we been together</h3>
+        <input type="radio" class="correct" name="third" />
+        <p>5</p>
+        <br />
+        <input type="radio" name="third" />
+        <p>4</p>
+        <br />
+        <input type="radio" name="third" />
+        <p>3</p>
+        <br />
+        <input type="radio" name="third" />
+        <p>13</p>
+      </div>
+
+      <div id="fourth-question">
+        <h3>Pick answer A</h3>
+        <input type="radio" class="correct" name="fourth" />
+        <p>A</p>
+        <br />
+        <input type="radio" name="fourth" />
+        <p>Apples</p>
+        <br />
+        <input type="radio" name="fourth" />
+        <p>Albatross</p>
+        <br />
+        <input type="radio" name="fourth" />
+        <p>Alpha</p>
+      </div>
+      <br />
+      <button type="button" onclick="results()">Submit</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

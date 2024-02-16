@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
+        We need to create elements that are going to hold our to-do list and it's associated elements.
+        We need an element that will accept input to add an item to the to-do list.
+        -->
+        <div id="todo-container">
+            <h2>To-Do List</h2>
+            <div id="list">
+                <ul>
+
+                </ul>
+            </div>
+            <!-- <form> -->
+                <label>Add to List: </label> <input type="text" id="newItem">
+                <br>
+                <button type="submit" onclick="addToList()">Submit</button>
+            <!-- </form> -->
+        </div>
+    <script src="script.js"></script>
+  </body>
+</html>

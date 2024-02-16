@@ -1,0 +1,47 @@
+#calculator {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  border: 3px grey solid;
+}
+
+#display {
+  display: flex;
+  justify-content: center;
+  height: 14.29%;
+  border: 1px grey solid;
+  width: 90%;
+  margin-left: 5%;
+  align-self: center;
+  margin-top: 5%;
+}
+
+#equal {
+  height: 25%;
+}
+
+#equal {
+  position: absolute;
+  height: 52.8%;
+  left: 76%;
+}
+
+.row {
+  height: 14%;
+}
+
+.btn {
+  /* display:flex; */
+  height: 75%;
+  width: 15%;
+  margin: 10% 2% 0% 6%;
+}
+
+.btn:active {
+  background-color: darkgray;
+  border: 0.25px black solid;
+}
+
+.grey {
+  background-color: lightgray;
+}

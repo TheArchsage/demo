@@ -1,0 +1,25 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#total{
+    display:flex;
+    justify-content:center;
+    font-size:larger;
+    font-weight: bold;
+}
+
+#buttons{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+}
+#buttons button{
+    margin-left: 3%;
+    margin-right: 3%;
+}
