@@ -6,3 +6,5 @@ const arr = [
 arr[1].splice(1, 1, 0);
 
 console.log(arr);
+
+console.log("Test");
